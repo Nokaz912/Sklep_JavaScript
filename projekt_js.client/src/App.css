@@ -1,0 +1,30 @@
+﻿#root {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #F2F2F2;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+p {
+    font-size: 20px;
+}
+ul {
+    column-count: 3;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    break-inside: avoid-column;
+    margin-bottom: 20px; 
+}

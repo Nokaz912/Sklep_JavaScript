@@ -1,0 +1,92 @@
+#root {
+   border: 0;
+}
+body{
+}
+
+header {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+
+}
+h1 {
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.regular-column{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+}
+.narrow-column, .regular-column {
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 10px;
+}
+.annoucement-container {
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-bottom: 10px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #34495e;
+}
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+}
+ul {
+    column-count: 3;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    break-inside: avoid-column;
+    margin-bottom: 20px; /* Dodaj dowolne odstêpy miêdzy elementami, aby by³o czytelniej */
+}
